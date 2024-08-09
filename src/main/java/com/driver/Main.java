@@ -19,7 +19,8 @@ public  static class B extends  A{
 
     public static void main(String[] args) {
         B b= new B();
-        b.meth();
-        b.meth();
+        System.out.println(b.meth());
+        System.out.println(b.meth());
+        
     }
 }
